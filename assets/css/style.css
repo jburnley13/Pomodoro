@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(216, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    float: left;
+    position: absolute;
+    top: 92%;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+#footer2 {
+    top: 94%;
+}
+
+#main {
+    background-color: rgb(236, 189, 128);
+    width: 500px;
+    height: 490px;
+    border-radius: 38%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgba(212, 198, 198, 0.726)
+}
+
+#main h1 {
+    padding-top: 35px;
+}
+
+.timer {
+    position: absolute;
+    top: 40%;
+    font-size: 70px;
+}
+
+.botao {
+    float: left;
+    position: absolute;
+    top: 64%;
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: grey;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px 2px white;
+    border: none;
+}
+
+.leaf {
+    width: 100px;
+    height: 100px;
+    background-color: #A0DE21;
+    -moz-border-radius: 100px 0px;
+    -webkit-border-radius: 100px 0px;
+    border-radius: 100px 0px;
+    position: absolute;
+    top: 5%;
+    transition: 1s;
+}
+
+.leaf:hover {
+    transform: rotate(19deg);
+    transition: 1s;
+}
+
+.talo {
+    width: 10px;
+    height: 55px;
+    background-color: #A0DE21;
+    float: left;
+    position: absolute;
+    top: 14%;
+    transition: 1s;
+    transform: rotate(4deg);
+}
+
+.talo:hover {}
+
+.botao:hover {
+    height: 42px;
+    background-color: green;
+}
+
+.botao:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border: 2px solid rgb(83, 75, 75);
+    height: 42px;
+}
+
+#two-buttons {
+    position: absolute;
+    float: left;
+    top: 71%;
+}
+
+#two-buttons input {
+    margin-left: 5px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    background-color: grey;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px 2px white;
+}
+
+#two-buttons input:hover {
+    background-color: red;
+    height: 35px;
+}
+
+.paused {
+    color: rgb(228, 58, 58);
+}
